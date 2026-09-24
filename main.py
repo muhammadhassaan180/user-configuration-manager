@@ -1,10 +1,10 @@
 # freeCodeCamp python-v9 — Certification Project
 # Build a User Configuration Manager
 # My code goes below.
-test_settings= {
-    'Theme': 'dark',
-    'Notifications': 'enabled',
-    'Volume': 'high'
+test_settings = {
+    'theme': 'dark',
+    'notifications': 'enabled',
+    'volume': 'high'
 }
 def add_setting(settings_dict, key_value_tuple):
     key, value = key_value_tuple
@@ -46,3 +46,9 @@ def view_settings(settings_dict):
         for key, value in settings_dict.items():
             result += f"{key.capitalize()}: {value}\n"
         return result
+
+print(view_settings(test_settings))
+print(add_setting(test_settings, ('language', 'en')))
+print(update_setting(test_settings, ('theme', 'light')))
+print(delete_setting(test_settings, 'volume'))
+print(view_settings(test_settings))
