@@ -1,6 +1,6 @@
 # User Configuration Manager
 
-A small settings manager built with Python dictionaries — add, update, delete, and view user settings with input validation.
+A small settings manager built with Python dictionaries add, update, delete, and view user settings with input validation.
 
 ## Features
 
