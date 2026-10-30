@@ -1,6 +1,6 @@
 # User Configuration Manager
 
-A small settings manager built with Python dictionaries — add, update, delete, and view user settings with input validation.
+A freeCodeCamp Python certification project: a small settings manager built with Python dictionaries — add, update, delete, and view user settings with input validation.
 
 ## Features
 
@@ -25,4 +25,4 @@ python main.py
 
 ---
 
-*Built as part of my Software Engineering learning journey at SSUET.*
+*Built as part of the freeCodeCamp Scientific Computing with Python certification.*
